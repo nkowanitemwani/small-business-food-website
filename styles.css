@@ -29,6 +29,34 @@ p ,li {
     background-blend-mode:overlay ;
 }
 
+.banner_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  padding: 0 5rem;
+  margin: 0 auto;
+}
+
+.banner_nav-logo{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.banner_nav-logo-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.banner_nav-logo-links a{
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
 .banner_title{
     font-weight: 500;
     font-size: 6rem;
