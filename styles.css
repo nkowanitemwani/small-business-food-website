@@ -18,14 +18,17 @@ p ,li {
 }
 
 .banner{
-    padding: 100px;
+    position: relative;
     text-align: center;
     align-content: center;
-    height: 15vh;
-    background-image: url("images/banner3.jpg");
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("images/banner1.jpg");
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode:overlay ;
 }
 
@@ -34,8 +37,7 @@ p ,li {
   justify-content: space-between;
   align-items: center;
   max-width: 1500px;
-  padding: 0 5rem;
-  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .banner_nav-logo{
@@ -54,7 +56,8 @@ p ,li {
   color: orange;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .banner_title{
@@ -73,7 +76,7 @@ p ,li {
     }
 
 .products_title{
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     align-self: center;
     font-weight: 500;
