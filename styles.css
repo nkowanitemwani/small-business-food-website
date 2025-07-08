@@ -17,67 +17,91 @@ p ,li {
     font-family: "Playfair Display";
 }
 
-.banner{
+.hero_nav {
     position: relative;
-    text-align: center;
-    align-content: center;
-    height: 25vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-image: url("images/banner1.jpg");
-    background-size: cover;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    z-index: 1000;
+    color: black;
+    /* backdrop-filter: blur(10px); */
+}
+
+.hero_main {
+    background: url("images/banner3.jpg");
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode:overlay ;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.banner_nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1500px;
-  padding: 0 2rem;
+
+.hero_nav-logo{
+    font-size: 1rem;
+    font-weight: 600;
+    color: orange;
 }
 
-.banner_nav-logo{
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-.banner_nav-logo-links{
+.hero_nav-logo-links{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
-.banner_nav-logo-links a{
+.hero_nav-logo-links a{
   color: orange;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.banner_title{
-    font-weight: 500;
-    font-size: 6rem;
+.hero_title{
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 3rem;
 }
-.banner_description{
+.hero_description{
     color: orange;
-    font-weight: 100;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
+
+
 
 .products{
     display: flex;
+    flex-direction: column;
     width: 100%;
     min-height: 80vh;
 }
 
+
+.menu_title h2 {
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    
+}
+
 .food{
-    padding: 100px;
+    padding: 50px;
     min-height: 75vh;
     width: 70%;
     display: flex;
@@ -89,15 +113,6 @@ p ,li {
     
     }
 
-.menu_title{
-    padding: 50px;
-    text-align: center;
-    align-self: center;
-    font-weight: 500;
-    font-size: 5rem;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
 
 .food_offer{
     min-width: 100%;
@@ -117,41 +132,40 @@ p ,li {
 
     color: black;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
 
 .food_info-title-side{
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .food_info-description{
   color: orange;
   font-weight: 550;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
 .food_info-images{
    flex: 1;
-   width: 500px;
-   height: 500px;
+   width: 150px;
+   height: 150px;
    border-radius: 5px;
-   background-color: #e0e0e0;
    }
 
 .food_info-images img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .drink{
-    padding: 100px;
+    padding: 50px;
     min-height: 75vh;
-    width: 30%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -178,7 +192,7 @@ p ,li {
 
     color: black;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
@@ -191,35 +205,52 @@ p ,li {
 
 .drink_info-images{
    flex: 1;
-   width: 500px;
-   height: 500px;
+   width: 150px;
+   height: 150px;
    border-radius: 5px;
-   background-color: #e0e0e0;
    }
 
 .drink_info-images img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
 
-footer {
+.villan_info{
+display: flex;
+justify-content: space-between;
+padding: 20px 20px;
+
+}
+
+.villan_image{
+    padding-left: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.villan_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.villan_address{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: white;
-
 }
 
-.contact_title{
-  padding: 25px;  
-  font-size: 3rem;
+.villan_address-title{
+    font-size: 2rem;
 }
 
-.contact_info-details{
-    padding: 10px;
-    font-weight: 900;
-    font-size: 1.2rem;
-
-
+.villan_address-details{
+    font-size: 1rem;
+    list-style: none;
 }
