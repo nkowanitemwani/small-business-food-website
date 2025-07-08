@@ -22,7 +22,6 @@ p ,li {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 0;
     background: transparent;
     z-index: 1000;
     color: black;
@@ -36,7 +35,7 @@ p ,li {
     background-blend-mode:overlay ;
     background-size: cover;
     height: 50vh;
-    padding-top: 50px;
+    padding-top: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -44,7 +43,7 @@ p ,li {
 
 
 .hero_nav-logo{
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: 600;
     color: orange;
 }
@@ -60,19 +59,19 @@ p ,li {
   color: orange;
   text-decoration: none;
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .hero_title{
-    margin-top: 300px;
+    margin-top: 50px;
     font-weight: 900;
-    font-size: 10rem;
+    font-size: 3rem;
 }
 .hero_description{
     color: orange;
     font-weight: 500;
-    font-size: 6rem;
+    font-size: 1.5rem;
 }
 
 
@@ -86,23 +85,23 @@ p ,li {
 
 
 .menu_title h2 {
-    padding: 50px;
+    padding-top: 10px;
     text-align: center;
     align-self: center;
     font-weight: 900;
-    font-size: 8rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
 hr {
     width: 50%;
     margin: 0 auto;
-    border: 3px solid black;
-    margin-bottom: 50px;
+    border: 2px solid black;
+    
 }
 
 .food{
-    padding: 100px;
+    padding: 50px;
     min-height: 75vh;
     width: 70%;
     display: flex;
@@ -133,41 +132,40 @@ hr {
 
     color: black;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
 
 .food_info-title-side{
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .food_info-description{
   color: orange;
   font-weight: 550;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
 .food_info-images{
    flex: 1;
-   width: 500px;
-   height: 500px;
+   width: 150px;
+   height: 150px;
    border-radius: 5px;
-   background-color: #e0e0e0;
    }
 
 .food_info-images img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .drink{
-    padding: 100px;
+    padding: 50px;
     min-height: 75vh;
-    width: 30%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -194,7 +192,7 @@ hr {
 
     color: black;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
@@ -207,46 +205,52 @@ hr {
 
 .drink_info-images{
    flex: 1;
-   width: 500px;
-   height: 500px;
+   width: 150px;
+   height: 150px;
    border-radius: 5px;
    }
 
 .drink_info-images img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
 
-footer {
+.villan_info{
 display: flex;
 justify-content: space-between;
-gap: 100px;
+padding: 20px 20px;
 
 }
 
-.footer_image{
-    flex: 1;
-    width: 10%;
-    height: 20vh;
+.villan_image{
+    padding-left: 100px;
+    width: 150px;
+    height: 150px;
 }
 
-.footer_image img{
+.villan_image img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.footer_address{
-    flex: 1;
+.villan_address{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.footer_address-title{
-    font-size: 3rem;
-}
-
-.footer_address-details{
+.villan_address-title{
     font-size: 2rem;
+}
+
+.villan_address-details{
+    font-size: 1rem;
+    list-style: none;
 }
