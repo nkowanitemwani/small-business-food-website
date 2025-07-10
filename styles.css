@@ -145,11 +145,6 @@ hr {
 }
 
 
-.food_info-title-side{
-    font-weight: 200;
-    font-size: 1rem;
-}
-
 .food_info-description{
   color:#6b8e23;
   font-weight: 550;
@@ -183,31 +178,34 @@ hr {
 }
 
 .drink_offer{
-    min-width: 100%;
-    background-color: white;
+    width: 250px;
+    height: 250px;
+    background-color: #f0f5f0;
     display: flex;
-    gap: 35px;
+    gap: 20px;
     padding: 20px;
     box-sizing:border-box;
+    overflow: hidden;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
 
 .drink_info{
   flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .drink_info-title{
 
-    color: black;
+    color: #556b2f;
     font-weight: 900;
     font-size: 1.5rem;
     text-decoration: underline;
-}
-
-
-.drink_info-title-side{
-    font-weight: 200;
-    font-size: 2rem;
+    overflow: visible;
+    text-overflow: ellipsis;
 }
 
 
@@ -215,7 +213,6 @@ hr {
    flex: 1;
    width: 150px;
    height: 150px;
-   border-radius: 5px;
    }
 
 .drink_info-images img {
@@ -223,8 +220,6 @@ hr {
     height: 100%;
     object-fit: contain;
 }
-
-
 
 .villan_info{
 display: flex;
