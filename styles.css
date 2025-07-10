@@ -5,7 +5,7 @@
 
 body{
     font-family: "Raleway",'Times New Roman', Times, serif;
-    background-color: #f7f7f7;
+    background: color #f9f9f9;;
     color: black;
 }
 
@@ -24,7 +24,6 @@ p ,li {
     width: 100%;
     background: transparent;
     z-index: 1000;
-    color: black;
     /* backdrop-filter: blur(10px); */
 }
 
@@ -34,7 +33,7 @@ p ,li {
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode:overlay ;
     background-size: cover;
-    height: 50vh;
+    height: 55svh;
     padding-top: 10px;
     align-items: center;
     justify-content: center;
@@ -43,9 +42,9 @@ p ,li {
 
 
 .hero_nav-logo{
-    font-size: 1rem;
-    font-weight: 600;
-    color: orange;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f9f9f9;
 }
 
 .hero_nav-logo-links{
@@ -56,20 +55,21 @@ p ,li {
 }
 
 .hero_nav-logo-links a{
-  color: orange;
+  color: #f9f9f9;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .hero_title{
-    margin-top: 50px;
+    margin-top: 100px;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: #2c2c2c;
 }
 .hero_description{
-    color: orange;
+    color: #556b2f;
     font-weight: 500;
     font-size: 1.5rem;
 }
@@ -91,12 +91,13 @@ p ,li {
     font-weight: 900;
     font-size: 3rem;
     text-transform: uppercase;
+    color: #556b2f;
 }
 
 hr {
     width: 50%;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 2px solid #6b8e23;
     
 }
 
@@ -115,25 +116,32 @@ hr {
 
 
 .food_offer{
-    min-width: 100%;
-    background-color: white;
+    width: 250px;
+    height: 250px;
+    background-color: #f0f5f0;
     display: flex;
-    gap: 35px;
+    gap: 20px;
     padding: 20px;
     box-sizing:border-box;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
 
 .food_info{
   flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .food_info-title{
-
-    color: black;
+    color: #556b2f;
     font-weight: 900;
     font-size: 1.5rem;
-    text-decoration: underline;
+    overflow: visible;
+    text-overflow: ellipsis;
 }
 
 
@@ -143,9 +151,10 @@ hr {
 }
 
 .food_info-description{
-  color: orange;
+  color:#6b8e23;
   font-weight: 550;
   font-size: 1rem;
+  overflow: hidden;
 }
 
 
@@ -153,7 +162,6 @@ hr {
    flex: 1;
    width: 150px;
    height: 150px;
-   border-radius: 5px;
    }
 
 .food_info-images img {
