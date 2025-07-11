@@ -1,0 +1,25 @@
+
+
+.hero_reservation {
+    background: url("images/reserve5.jpg");
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode:overlay ;
+    background-size: cover;
+    height: 55svh;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reservations_title h2 {
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #556b2f;
+}
+   

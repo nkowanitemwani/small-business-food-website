@@ -1,0 +1,14 @@
+
+
+.hero_contact {
+    background: url("images/contact.jpg");
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode:overlay ;
+    background-size: cover;
+    height: 55svh;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
