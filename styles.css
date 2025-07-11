@@ -40,13 +40,6 @@ p ,li {
     text-align: center;
 }
 
-
-.hero_nav-logo{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #f9f9f9;
-}
-
 .hero_nav-logo-links{
   display: flex;
   justify-content: space-between;
