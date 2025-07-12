@@ -97,7 +97,7 @@ hr {
 .food{
     padding: 50px;
     min-height: 75vh;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -161,7 +161,7 @@ hr {
 .drink{
     padding: 50px;
     min-height: 75vh;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
