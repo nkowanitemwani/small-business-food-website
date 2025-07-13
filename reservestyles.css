@@ -13,3 +13,25 @@
     text-align: center;
 }
    
+
+.tables_avaliable{
+    height: 25vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tables_number{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tables_number-card{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+     background-color: #f0f5f0;
+   box-sizing:border-box;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
