@@ -53,6 +53,11 @@ p ,li {
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 500;
+  transition: color 0.1s;
+}
+
+.hero_nav-logo-links a:hover{
+    color: #556b2f;
 }
 
 .hero_title{
@@ -77,7 +82,7 @@ p ,li {
 }
 
 
-.title h2 {
+.title h2{
     padding-top: 10px;
     text-align: center;
     align-self: center;
